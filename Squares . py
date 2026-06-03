@@ -1,0 +1,7 @@
+# Squares of Numbers
+
+n = int(input("Enter the total numbers: "))
+
+for i in range(1, n + 1):
+    value = int(input(f"Enter value {i}: "))
+    print("Square =", value ** 2)
